@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_list_event"
+            android:title="@string/ic_list_event" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_event_location"
+            android:title="@string/ic_list_event_map" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_reg_asistencia"
+            android:title="@string/button_reg_asisten" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_list_asis"
+            android:title="@string/ic_list_asis" />
+    </group>
+
+
+</menu>
